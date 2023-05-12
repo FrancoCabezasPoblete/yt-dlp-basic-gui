@@ -10,11 +10,11 @@ V1: MP3 & MP4 Support
 3. Ready to go.
 
 ## COMPILE
-### DEPENDENCIES
-You need ffmpeg and ffprobe binary in the ffmpeg_bin folder. (https://www.ffmpeg.org/download.html).
 ```
 pyinstaller --noconsole --add-data "ffmpeg_bin/*.exe;ffmpeg_bin/" src/yt-dlp-basic-gui.py
 ```
+### DEPENDENCIES
+You need ffmpeg and ffprobe binary in the ffmpeg_bin folder. (https://www.ffmpeg.org/download.html).
 
 ## TODO
 - Formats customization
