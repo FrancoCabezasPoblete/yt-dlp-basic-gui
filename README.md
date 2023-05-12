@@ -13,7 +13,7 @@ You need ffmpeg and ffprobe binary in a ffmpeg_bin folder next to the executable
 ## COMPILE
 
 ```
-pyinstaller --onefile --noconsole --add-data "ffmpeg_bin;ffmpeg_bin" main.py
+pyinstaller --onefile --noconsole main.py
 ```
 
 ## TODO
