@@ -1,5 +1,5 @@
 # RELEASES
-V1: MP3 & MP4 support
+V1: MP3 & MP4 Support
 
 V2: (next) customization...
 # COMPILE
