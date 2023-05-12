@@ -1,5 +1,4 @@
 build
 dist
-upx
-ffmpeg_bin
-main.spec
+ffmpeg_bin/*.exe
+*.spec
