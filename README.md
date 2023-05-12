@@ -15,7 +15,6 @@ pyinstaller --noconsole --add-data "ffmpeg_bin/*.exe;ffmpeg_bin/" src/yt-dlp-bas
 ```
 
 ## TODO
-- Compress executable size
 - Formats customization
 - Postprocessing options
 - Bundle ffmpeg & ffprobe executables
