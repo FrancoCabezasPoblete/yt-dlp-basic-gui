@@ -2,18 +2,16 @@
 ## RELEASES
 V1: MP3 & MP4 Support
 
-## DEPENDENCIES
-You need ffmpeg and ffprobe binary in a ffmpeg_bin folder next to the executable. (https://www.ffmpeg.org/download.html).
-
 ## INSTALATION
 1. Download the latest release.
-2. In the ffmpeg_bin directory put ffmpeg.exe & ffprobe.exe .
+2. Create a Direct Access to the yt-dlp-basic-gui.exe
 3. Ready to go.
 
 ## COMPILE
-
+### DEPENDENCIES
+You need ffmpeg and ffprobe binary in the ffmpeg_bin folder. (https://www.ffmpeg.org/download.html).
 ```
-pyinstaller --onefile --noconsole main.py
+pyinstaller --noconsole --add-data "ffmpeg_bin/*.exe;ffmpeg_bin/" src/yt-dlp-basic-gui.py
 ```
 
 ## TODO
