@@ -4,7 +4,7 @@ yt-dlp-basic-gui is a minimalistic graphical user interface (GUI) for [yt-dlp](h
 ## RELEASES
 V1: MP3 & MP4 Support
 
-## INSTALATION
+## INSTALLATION
 1. Download the latest release.
 2. Create a Direct Access to the yt-dlp-basic-gui.exe
 3. Ready to go.
@@ -19,5 +19,4 @@ You need ffmpeg and ffprobe binary in the ffmpeg_bin folder. (https://www.ffmpeg
 ## TODO
 - Formats customization
 - Postprocessing options
-- Bundle ffmpeg & ffprobe executables
 

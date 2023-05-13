@@ -15,7 +15,7 @@ def download_thread(ydl_opts, url):
             ydl.download([url])
             message_label.config(text="Descarga completa", fg="green")
         except:
-            message_label.config(text="A ocurrido un error en la descarga, intentelo nuevamente", fg="red")
+            message_label.config(text="Ha ocurrido un error en la descarga, intentelo nuevamente", fg="red")
 
 def download_as(type):
     url = url_entry.get()
