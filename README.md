@@ -1,3 +1,6 @@
+# [DEPRECATED]
+Future idea: change to rust
+
 # yt-dlp-basic-gui
 yt-dlp-basic-gui is a minimalistic graphical user interface (GUI) for [yt-dlp](https://github.com/yt-dlp/yt-dlp), an open-source command-line tool designed to effortlessly download video and audio content from a wide range of websites.
 
